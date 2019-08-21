@@ -1,5 +1,6 @@
 package com.pzy.study.imports;
 
+import com.pzy.study.daos.AppDao;
 import org.springframework.context.annotation.ImportSelector;
 import org.springframework.core.type.AnnotationMetadata;
 
@@ -13,6 +14,6 @@ public class MyImportSelector implements ImportSelector {
 
     @Override
     public String[] selectImports(AnnotationMetadata annotationMetadata) {
-        return new String[]{"com.pzy.study.daos.AppDao"};
+        return new String[]{AppDao.class.getName()};
     }
 }
