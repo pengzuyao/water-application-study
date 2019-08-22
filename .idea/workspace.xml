@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c8549e9-da17-4db7-ac38-d7f34326f337" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pzy/study/futures/CommonCook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pzy/study/futures/FutureCook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application-study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/application-study.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pzy/study/proxys/$Proxy0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pzy/study/proxys/$Proxy0.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pzy/study/proxys/FooService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pzy/study/proxys/FooService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pzy/study/proxys/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pzy/study/proxys/Foo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pzy/study/proxys/MyClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pzy/study/proxys/MyClassLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pzy/study/proxys/ProxyUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pzy/study/proxys/ProxyUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pzy/study/proxys/FooService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pzy/study/proxys/FooService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pzy/study/proxys/HelloWorld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pzy/study/proxys/MyClassLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pzy/study/proxys/MyClassLoader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/pzy/study/proxys/ProxyUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pzy/study/proxys/ProxyUtils.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,63 +22,35 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pzy/study/proxys/$Proxy0.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pzy/study/futures/CommonCook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pzy/study/proxys/FooService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="525">
+              <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="61" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pzy/study/proxys/ProxyUtils.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pzy/study/futures/FutureCook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="108" column="22" lean-forward="true" selection-start-line="108" selection-start-column="22" selection-end-line="108" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pzy/study/proxys/MyClassLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pzy/study/proxys/$Proxy0.class">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pzy/study/proxys/MyInvocationHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="311">
+              <caret line="43" column="85" selection-start-line="43" selection-start-column="85" selection-end-line="43" selection-end-column="85" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#742#749#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -100,6 +61,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/pzy/study/proxys/MyClassLoader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pzy/study/proxys/$Proxy0.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pzy/study/proxys/ProxyUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pzy/study/futures/CommonCook.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pzy/study/futures/FutureCook.java" />
       </list>
     </option>
   </component>
@@ -119,8 +82,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="553" />
-    <option name="y" value="32" />
+    <option name="x" value="949" />
+    <option name="y" value="41" />
     <option name="width" value="933" />
     <option name="height" value="1000" />
   </component>
@@ -170,7 +133,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="proxys" type="462c0819:PsiDirectoryNode" />
+              <item name="futures" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -199,7 +162,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.FutureCook">
+    <configuration name="CommonCook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pzy.study.futures.CommonCook" />
+      <module name="application-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pzy.study.futures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FutureCook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pzy.study.futures.FutureCook" />
+      <module name="application-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pzy.study.futures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProxyUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pzy.study.proxys.ProxyUtils" />
       <module name="application-study" />
@@ -215,6 +204,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FutureCook" />
+        <item itemvalue="Application.CommonCook" />
         <item itemvalue="Application.ProxyUtils" />
       </list>
     </recent_temporary>
@@ -230,17 +221,18 @@
       <option name="presentableId" value="Default" />
       <updated>1565577842075</updated>
       <workItem from="1565577851036" duration="8000" />
-      <workItem from="1566456494894" duration="1073000" />
+      <workItem from="1566456494894" duration="4118000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1081000" />
+    <option name="totallyTimeSpent" value="4126000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="949" y="41" width="933" height="1000" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32646048" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -254,7 +246,7 @@
       <window_info anchor="bottom" id="JRebel Executor" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46478873" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27912343" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4073673" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -319,8 +311,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pzy/study/proxys/ProxyUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="108" column="22" lean-forward="true" selection-start-line="108" selection-start-column="22" selection-end-line="108" selection-end-column="22" />
+        <state relative-caret-position="94">
+          <caret line="78" column="40" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pzy/study/echancers/MyMethodInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/workApp/jdk1.8.0_211/src.zip!/java/util/concurrent/RunnableFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/workApp/jdk1.8.0_211/src.zip!/java/util/concurrent/FutureTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="62" column="45" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pzy/study/futures/CommonCook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="61" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pzy/study/futures/FutureCook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="43" column="85" selection-start-line="43" selection-start-column="85" selection-end-line="43" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#742#749#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
