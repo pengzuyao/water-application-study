@@ -5,7 +5,7 @@ package com.pzy.study.proxys;
  * @Author: pengzuyao
  * @Time: 2019/08/21
  */
-public class FooService implements HelloWorld {
+public class FooService implements Foo {
 
     @Override
     public String execute() throws Throwable {

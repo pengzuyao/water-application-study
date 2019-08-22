@@ -101,7 +101,7 @@ public class ProxyUtils {
 
     public static void main(String[] args) throws Throwable {
         MyClassLoader myClassLoader = new MyClassLoader("D:\\projects\\application-study\\src\\main\\java\\com\\pzy\\study\\proxys");
-        FooService fooService = (FooService)ProxyUtils.newInstance(myClassLoader, HelloWorld.class, new MyInvocationHandler(new FooService()));
-        fooService.execute();
+        Foo foo = (Foo)ProxyUtils.newInstance(myClassLoader, Foo.class, new MyInvocationHandler(new FooService()));
+        foo.execute();
     }
 }

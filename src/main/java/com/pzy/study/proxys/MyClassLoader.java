@@ -39,7 +39,7 @@ public class MyClassLoader extends ClassLoader {
                         baos.write(buffer, 0, len);
                     }
                     //将buffer中的字节读到内存加载为class
-                    return defineClass("proxy." + name, baos.toByteArray(), 0, baos.size());
+                    return defineClass("com.pzy.study.proxys." + name, baos.toByteArray(), 0, baos.size());
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
