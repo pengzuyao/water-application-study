@@ -1,7 +1,5 @@
 package com.pzy.study;
 
-import com.pzy.study.configs.AppConfig;
-import com.pzy.study.configs.AppConfig1;
 import com.pzy.study.configs.AppConfig2;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -20,5 +18,6 @@ public class ApplicationContextTest {
 
         /*applicationContext.register(AppConfig1.class);
         applicationContext.refresh();*/
+
     }
 }
