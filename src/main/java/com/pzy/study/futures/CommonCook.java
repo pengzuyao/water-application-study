@@ -25,7 +25,7 @@ public class CommonCook {
         System.out.println("第二部：食材到位");
         System.out.println("第三部：开始展现厨艺");
         cook(thread.chuju ,shicai);
-        System.out.println("总共用时:" + (System.currentTimeMillis() -startTime) +"ms");
+        System.out.println("总共用时:" + (System.currentTimeMillis() - startTime) +"ms");
     }
 
 

@@ -8,11 +8,11 @@ import org.springframework.stereotype.Component;
  * @Author: pengzuyao
  * @Time: 2019/08/23
  */
-@Component
+//@Component
 public class AppTest1 {
 
-    @Autowired
-    AppTest2 appTest2;
+    /*@Autowired
+    AppTest2 appTest2;*/
 
     public AppTest1() {
         System.out.println("appTest1");
