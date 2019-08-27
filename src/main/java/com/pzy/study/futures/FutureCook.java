@@ -37,7 +37,9 @@ public class FutureCook {
         System.out.println("第二部食材到位");
         if (!task.isDone()){ // 联系快递员，询问是否到货
             System.out.println("第三步：厨具还没到，心情好就等着（心情不好就调用cancel方法取消订单）");
+            //task.cancel(true);
         }
+
         Chuju chuju = task.get();
         System.out.println("第三步：厨具到位，开始展现厨艺");
         cook(chuju ,shicai);
